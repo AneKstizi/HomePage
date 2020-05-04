@@ -1,0 +1,33 @@
+body {
+  font-family: "Montserrat";
+}
+.container {
+  max-width: 1240px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    font-size: 90px;
+    font-weight: 800;
+    margin: 0 50px;
+    opacity: 0;
+
+  }
+
+}
+
+@import './layout/header';
+@import './layout/uiElements';
+@import './media/media';
