@@ -16,12 +16,13 @@
     transform: rotate(-45deg);
     transform-origin: 0 100%;
   }
+  &:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+  }
 }
-.heart:after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin :100% 100%;
-}
+
 .first {
   position: absolute;
   top: 20%;
