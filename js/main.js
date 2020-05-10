@@ -51,7 +51,7 @@ TweenMax.from('.header__wrapp__text', 1, {
 TweenMax.from('.header__content__wrapp__img', 1, {
     delay: 2.5,
     opacity: 0,
-    x: 100,
+    y: 100,
     ease: Expo.easeInOut
  }
 )
